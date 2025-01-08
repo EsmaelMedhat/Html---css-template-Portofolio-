@@ -118,12 +118,17 @@ a:hover {
         right: 6px;
         top: 14px;
         padding-right: 15px;
+        margin-right: 10px;
     }
 
     a {
         background-color: #191a2b;
         text-align: center;
         padding: 4px;
+    }
+
+    .logo {
+        margin-right: 10px;
     }
 }
 
@@ -255,6 +260,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
+    text-align: center;
 }
 
 .service h1::after {
@@ -452,6 +458,10 @@ i {
     .wel img {
         width: 510px;
         margin-left: 30px;
+    }
+
+    .wel {
+        height: 90vh;
     }
 
     .main-header {
